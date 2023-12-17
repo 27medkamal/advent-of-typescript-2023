@@ -1,4 +1,4 @@
-type FindSanta<
+export type FindSanta<
   T extends string[],
   Counter extends number[] = [],
 > = T[Counter['length']] extends '🎅🏼'
